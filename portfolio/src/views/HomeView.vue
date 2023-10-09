@@ -17,6 +17,8 @@ Express, and Node.js, and I am always looking for opportunities to expand my ski
 As a quick learner with a strong work ethic, I am confident that I can make a valuable contribution to your
 team. I am excited about the opportunity to apply my skills and knowledge to real world projects, and I am eager to take on new challenges as a software developer.
           </p>
+          <!-- About me section-->
+          <v-btn tile color="#A7121D" dark>About me</v-btn>
         </v-col>
       </v-row>
     </v-container>
@@ -38,5 +40,41 @@ import NavbarComponent from '../components/NavbarComponent.vue'
 <style scoped>
 .top{
   margin-top: 180px;
+}
+.topInverse{
+  margin-top: -250px;
+}
+.topToolbar{
+  margin-top: 100px;
+  text-align: center;
+}
+.first{
+  width: 100%;
+  height: 610px;
+  background: linear-gradient(
+    to right,
+    #181818,
+    #181818 50%,
+    #111111 50%,
+    #111111 50%
+  );
+  text-align: center;
+  padding: 2rem 2rem;
+}
+.second{
+  width: 100%;
+  height: 400px;
+  background: #181818;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+.secondChild1{
+  display: inline-block;
+  background-color: #1e1e1e;
+  padding: 2rem 1rem;
+  vertical-align: middle;
+  text-align: left;
+  margin-top: 250px;
+  
 }
 </style>
